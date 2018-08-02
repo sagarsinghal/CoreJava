@@ -3,10 +3,16 @@ public class camd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("passed" +args.length);
-		for(int i=0;i<args.length;i++) {
-			System.out.println(args[i]);
-		}
+
+		String indx="";
+		
+			String str="heyameain";
+			for(int i = 0; i<str.length();i++) {
+				System.out.println(str.indexOf('a'));
+				i=str.indexOf('a');
+			
+			}
+			
 	}
 
 }
